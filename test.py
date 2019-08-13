@@ -5,9 +5,9 @@ sys.path.append('/c/users/aldwin galapon/appdata/local/programs/python/python36/
 from facebook_business.api import FacebookAdsApi
 from facebook_business.adobjects.adaccount import AdAccount
 
-my_app_id = '525243791549096'
+my_app_id = '474530250048926'
 my_app_secret = '57bcb17d93cca10a5e600c0558aacfbf'
-my_access_token = 'EAAHdtNmdoqgBAPPuZC8KGBQp3cLujKIG9NwIHQt3pLNYF4uojH9OKjMZBZASao859XuZA8k26uZAxmKU0pMa8hpnuK57ZCNZAeFDXwpHLZCnnm9jcMk7LrrJ3kLzPLaM0ZAnbN84LkUl86D6T5AKtZCYRp8DVOObnkrvEmqdenDvE2RZAfeVWVo4UocBqU99QZCKvn7ELZB2eONOXpLvIY65ZAZBXcg'
+my_access_token = 'EAAHdtNmdoqgBAIi6OZBW7Un9M06s8PtAPAVNaxCoy9iU2DYAyZAC9SF2zSImfOl6r5Iqp3NTxtAc4Cux4EVzZBLEvCDSnW4k2ZByKKbS86fxs07Sf4tUKf5XvlixwS0rwe1iy8Lr9rWW5HwcztldnvXbyPZBjhLToWMlL6KDEP4IlTcedPHBeUv7OhCqH72IZD'
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 my_account = AdAccount('act_565008260617668')
 campaigns = my_account.get_campaigns()
